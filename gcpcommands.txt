@@ -1,0 +1,33 @@
+for instance in `gcloud compute instances list | cut -f1 -d' '`; do echo $i; gcloud compute instances stop $instance; done
+gcloud 
+gcloud auth login
+gcloud compute instances --help
+gcloud compute instances list
+gcloud compute instances list | cut -f1 -d' '
+gcloud compute instances start healthapac001
+gcloud compute instances stop healthapac001
+gcloud compute instances stop healthemea001
+gcloud compute instances stop --zone europe-north1-a --async healthemea001
+gcloud compute instances stop --zone us-east1-b --async healthnamer001
+gcloud compute networks 
+gcloud compute networks create ddd
+gcloud compute networks describe
+gcloud compute networks describe vpc-healthcare-apac
+gcloud compute networks list
+gcloud help 
+gcloud help -- project
+gcloud help projects
+gcloud help update
+gcloud help -- update
+gcloud init
+gcloud list
+gcloud proects
+gcloud --project healthcare-289410 compute networks list
+gcloud projects
+gcloud projects delete health
+gcloud projects delete healthcare-2894101
+gcloud projects healthcare-289410
+gcloud projects --help update
+gcloud projects help update
+gcloud projects list
+gcloud projects telecom-289410
